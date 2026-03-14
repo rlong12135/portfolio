@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Portfolio site for R Long featuring selected work, approach, and contact details."
+      content="Randall Long is a senior software engineer focused on distributed systems, cloud architecture, backend platforms, and systems design."
     >
-    <title>R Long | Portfolio</title>
+    <title>Randall Long | Senior Software Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -25,101 +25,171 @@
 
     <main class="shell">
       <header class="topbar">
-        <a class="brand" href="#home">R Long</a>
+        <a class="brand" href="#home">Randall Long</a>
         <nav class="nav" aria-label="Primary">
-          <a href="#work">Work</a>
-          <a href="#approach">Approach</a>
+          <a href="#experience">Experience</a>
+          <a href="#architecture">Architecture</a>
+          <a href="#documents">Documents</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
 
       <section class="hero" id="home">
         <div class="hero-copy">
-          <p class="eyebrow">Portfolio</p>
-          <h1>
-            Building clean digital experiences with a sharp eye for structure,
-            motion, and clarity.
-          </h1>
+          <p class="eyebrow">Senior Software Engineer</p>
+          <h1>Distributed systems, cloud architecture, and backend platforms built to hold up in production.</h1>
           <p class="lede">
-            This site is deployed through Azure Static Web Apps from GitHub and
-            is ready to evolve into a full portfolio. Replace the placeholder
-            project details below with your actual work.
+            I am a senior software engineer with 20+ years of experience building production systems across
+            logistics, mortgage, healthcare, imaging, and enterprise software. My work centers on C#/.NET,
+            AWS, PostgreSQL, microservices, infrastructure automation, and architecture that remains supportable
+            over time.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#work">See selected work</a>
-            <a class="button button-secondary" href="#contact">Get in touch</a>
+            <a class="button button-primary" href="#architecture">View systems work</a>
+            <a class="button button-secondary" href="docs/Randall_Long_Senior_Software_Engineer_Resume.pdf">Download resume</a>
           </div>
         </div>
 
         <aside class="hero-panel">
-          <p class="panel-label">Currently focused on</p>
+          <p class="panel-label">Core Focus</p>
           <ul class="signal-list">
-            <li>Static sites and landing pages</li>
-            <li>Frontend polish and interaction design</li>
-            <li>Deployment workflows with GitHub and Azure</li>
+            <li>C# / .NET backend engineering</li>
+            <li>AWS, Terraform, and cloud modernization</li>
+            <li>Distributed systems and service orchestration</li>
+            <li>PostgreSQL, Aurora, DynamoDB, and operational data design</li>
           </ul>
           <div class="stats">
             <article>
-              <strong>01</strong>
-              <span>Live Azure deployment pipeline</span>
+              <strong>20+</strong>
+              <span>Years building production software systems</span>
             </article>
             <article>
-              <strong>03</strong>
-              <span>Featured case-study placeholders</span>
+              <strong>8</strong>
+              <span>Engineer team led in logistics platform delivery</span>
             </article>
             <article>
-              <strong>100%</strong>
-              <span>Static hosting with zero server maintenance</span>
+              <strong>2</strong>
+              <span>Patents in medical image analysis</span>
             </article>
           </div>
         </aside>
       </section>
 
-      <section class="section" id="work">
+      <section class="section" id="experience">
         <div class="section-head">
-          <p class="eyebrow">Selected Work</p>
-          <h2>Three portfolio-ready slots for projects worth showing well.</h2>
+          <p class="eyebrow">Experience</p>
+          <h2>Hands-on engineering with architecture ownership across multiple domains.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-meta">2023-Present</div>
+            <div class="timeline-body">
+              <h3>X86 Consulting</h3>
+              <p class="timeline-role">Architect / Development Consultant</p>
+              <p>
+                Built Python logistics optimization services deployed with Docker on AWS Elastic Beanstalk,
+                automated cloud provisioning with AWS CLI and EB CLI, and evaluated locally hosted LLMs for
+                logistics analysis workflows.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">2022-2023</div>
+            <div class="timeline-body">
+              <h3>KBX Logistics</h3>
+              <p class="timeline-role">Tech Lead / Senior Software Engineer</p>
+              <p>
+                Led an 8-engineer team building a distributed logistics platform using PostgreSQL, DynamoDB,
+                and AWS Aurora; delivered REST APIs and operational analytics services.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">2018-2021</div>
+            <div class="timeline-body">
+              <h3>Rocket Mortgage</h3>
+              <p class="timeline-role">Senior Software Engineer</p>
+              <p>
+                Developed backend services for high-traffic mortgage systems supporting hundreds of thousands
+                of users, with Terraform-based infrastructure automation and Aurora migration work.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">2010-2018</div>
+            <div class="timeline-body">
+              <h3>VersaImage Software</h3>
+              <p class="timeline-role">Senior Software Engineer</p>
+              <p>
+                Architected HIPAA-compliant imaging systems integrating OCR and image processing, including
+                patented bottle-image analysis technology derived from video streams.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="architecture">
+        <div class="section-head">
+          <p class="eyebrow">Architecture Portfolio</p>
+          <h2>Representative systems across orchestration, logistics optimization, imaging, and modernization.</h2>
         </div>
 
         <div class="projects">
           <article class="project project-featured">
             <div class="project-meta">
-              <span>Case Study 01</span>
-              <span>Web Experience</span>
+              <span>Mortgage Platform</span>
+              <span>Service Orchestration</span>
             </div>
-            <h3>Project title placeholder for your strongest flagship build</h3>
+            <h3>Workflow-driven backend platform for mortgage processing at scale</h3>
             <p>
-              Use this space for the one project that best shows range: design
-              intent, technical decisions, and the measurable result.
+              Service coordination through API gateway, workflow orchestrator, event bus, and event store,
+              with identity, document, and notification services integrated around an Aurora/SQL core.
             </p>
             <ul>
-              <li>Responsive interface system</li>
-              <li>Fast static deployment workflow</li>
-              <li>Clear before-and-after story</li>
+              <li>Metadata-driven workflow control</li>
+              <li>Coordinated rollback across services</li>
+              <li>Operational metrics and central logging</li>
             </ul>
           </article>
 
           <article class="project">
             <div class="project-meta">
-              <span>Case Study 02</span>
-              <span>Product UI</span>
+              <span>Logistics Optimization</span>
+              <span>AWS + Python</span>
             </div>
-            <h3>Project placeholder for a sharper, more technical example</h3>
+            <h3>Optimization engine and API delivery for logistics scenarios</h3>
             <p>
-              Good fit for a dashboard, workflow tool, or app feature where the
-              structure and implementation mattered as much as the visuals.
+              Shipment data enters an ETL layer and flows into a Python optimization engine, scenario generator,
+              results API, and analytics-backed operational store deployed on AWS Elastic Beanstalk.
             </p>
           </article>
 
           <article class="project">
             <div class="project-meta">
-              <span>Case Study 03</span>
-              <span>Brand + Launch</span>
+              <span>Medical Imaging</span>
+              <span>OCR + Verification</span>
             </div>
-            <h3>Project placeholder for a fast-moving launch or redesign</h3>
+            <h3>Capture and verification pipeline for medical imaging workflows</h3>
             <p>
-              Use this card for a landing page, campaign, or redesign that
-              benefited from clarity, pacing, and purposeful visual hierarchy.
+              Scanner and video capture systems feed frame extraction, image flattening, OCR recognition,
+              prescription verification, audit logging, and exception handling paths.
+            </p>
+          </article>
+
+          <article class="project">
+            <div class="project-meta">
+              <span>Cloud Modernization</span>
+              <span>Migration Strategy</span>
+            </div>
+            <h3>Legacy-to-cloud modernization with feature flags and Terraform automation</h3>
+            <p>
+              Structured migration from legacy PHP and SQL Server systems into .NET Core services, AWS Aurora,
+              CI/CD, feature-flagged rollout, and monitoring-backed operations.
             </p>
           </article>
         </div>
@@ -127,50 +197,76 @@
 
       <section class="section split" id="approach">
         <div class="section-head">
-          <p class="eyebrow">Approach</p>
-          <h2>Design choices should carry their weight in the final build.</h2>
+          <p class="eyebrow">Engineering Approach</p>
+          <h2>Strong systems come from clear boundaries, realistic trade-offs, and solid operations.</h2>
         </div>
 
         <div class="approach-grid">
           <article class="principle">
-            <h3>Structure first</h3>
+            <h3>Architecture with operational realism</h3>
             <p>
-              The strongest pages feel inevitable. Layout, spacing, and reading
-              order do most of the work before visual effects are added.
+              I design service boundaries, data flow, and deployment strategies with reliability, maintainability,
+              and support burden in mind from the start.
             </p>
           </article>
 
           <article class="principle">
-            <h3>Intentional visuals</h3>
+            <h3>Hands-on technical leadership</h3>
             <p>
-              Good styling is not decoration. Typography, color, and contrast
-              should reinforce tone, credibility, and ease of use.
+              My best roles combine direct engineering work with architectural guidance, design review, mentoring,
+              and technical direction that stays grounded in implementation.
             </p>
           </article>
 
           <article class="principle">
-            <h3>Deployable by default</h3>
+            <h3>Quality over noise</h3>
             <p>
-              Clean repos, stable hosting, and frictionless publishing matter.
-              A site that cannot ship cleanly is not finished.
+              Clean code, meaningful tests, predictable deployments, useful telemetry, and understandable systems
+              matter more than flashy complexity.
             </p>
           </article>
+        </div>
+      </section>
+
+      <section class="section" id="documents">
+        <div class="section-head">
+          <p class="eyebrow">Documents</p>
+          <h2>Resume, architecture portfolio, and introduction letter.</h2>
+        </div>
+
+        <div class="docs-grid">
+          <a class="doc-card" href="docs/Randall_Long_Senior_Software_Engineer_Resume.pdf">
+            <span class="doc-type">Resume</span>
+            <strong>Senior Software Engineer Resume</strong>
+            <span>PDF download</span>
+          </a>
+          <a class="doc-card" href="docs/Randall_Long_Architecture_Portfolio_Polished_v2.pdf">
+            <span class="doc-type">Portfolio</span>
+            <strong>Systems Architecture Portfolio</strong>
+            <span>PDF download</span>
+          </a>
+          <a class="doc-card" href="docs/Randall-Long-intro-letter.pdf">
+            <span class="doc-type">Letter</span>
+            <strong>Introduction Letter</strong>
+            <span>PDF download</span>
+          </a>
         </div>
       </section>
 
       <section class="section contact" id="contact">
         <div class="section-head">
           <p class="eyebrow">Contact</p>
-          <h2>Available for freelance work, product builds, and site refreshes.</h2>
+          <h2>Available for senior individual contributor and technical lead roles.</h2>
         </div>
 
         <div class="contact-panel">
           <p>
-            Update these links with your preferred contact channels. Right now,
-            this section is structured to be easy to personalize and deploy.
+            I am most effective in senior engineering roles where I can stay deeply hands-on while also shaping
+            architecture, standards, and long-term technical direction.
           </p>
           <div class="contact-links">
             <a href="mailto:rlong.hails12135@gmail.com">rlong.hails12135@gmail.com</a>
+            <a href="tel:12313608716">231-360-8716</a>
             <a href="https://github.com/rlong12135">github.com/rlong12135</a>
           </div>
         </div>

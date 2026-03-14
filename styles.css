@@ -293,7 +293,7 @@ h3 {
 
 .projects {
   display: grid;
-  grid-template-columns: 1.3fr 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
@@ -308,6 +308,38 @@ h3 {
   background:
     linear-gradient(160deg, rgba(255, 142, 82, 0.16), transparent 45%),
     linear-gradient(180deg, rgba(8, 16, 25, 0.95), rgba(9, 20, 31, 0.92));
+}
+
+.timeline {
+  display: grid;
+  gap: 1rem;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1rem;
+  padding: 1.4rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.timeline-item:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.timeline-meta {
+  color: var(--accent-soft);
+  font-family: "Syne", sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.timeline-role {
+  margin-bottom: 0.6rem;
+  color: var(--highlight);
+  font-weight: 500;
 }
 
 .project-meta {
@@ -341,6 +373,36 @@ h3 {
   gap: 0.8rem;
 }
 
+.docs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.doc-card {
+  display: grid;
+  gap: 0.6rem;
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--panel-strong);
+  box-shadow: var(--shadow);
+  transition: transform 180ms ease, border-color 180ms ease;
+}
+
+.doc-card:hover,
+.doc-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(255, 210, 189, 0.45);
+}
+
+.doc-type {
+  color: var(--accent-soft);
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
 .contact-links a {
   padding: 1rem 1.1rem;
   border: 1px solid var(--line);
@@ -371,7 +433,9 @@ h3 {
   .hero,
   .projects,
   .split .approach-grid,
-  .contact-panel {
+  .contact-panel,
+  .docs-grid,
+  .timeline-item {
     grid-template-columns: 1fr;
   }
 
