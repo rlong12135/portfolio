@@ -159,6 +159,35 @@ a {
   background: linear-gradient(180deg, rgba(9, 20, 31, 0.82), rgba(11, 22, 35, 0.95));
 }
 
+.profile-block {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.35rem;
+}
+
+.profile-photo {
+  width: 88px;
+  height: 88px;
+  border-radius: 24px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 210, 189, 0.32);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3);
+}
+
+.profile-copy {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.profile-copy strong {
+  font-size: 1.1rem;
+}
+
+.profile-copy span {
+  color: var(--muted);
+}
+
 .eyebrow,
 .panel-label,
 .project-meta,
