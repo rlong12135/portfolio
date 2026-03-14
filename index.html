@@ -3,26 +3,178 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio site for R Long featuring selected work, approach, and contact details."
+    >
+    <title>R Long | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main class="page">
-      <section class="hero">
-        <p class="eyebrow">Portfolio</p>
-        <h1>Static site scaffold for Azure deployment</h1>
-        <p class="lede">
-          This repository is set up to deploy through Azure Static Web Apps with GitHub Actions.
-        </p>
+    <div class="backdrop" aria-hidden="true">
+      <div class="orb orb-one"></div>
+      <div class="orb orb-two"></div>
+      <div class="grid"></div>
+    </div>
+
+    <main class="shell">
+      <header class="topbar">
+        <a class="brand" href="#home">R Long</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#work">Work</a>
+          <a href="#approach">Approach</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio</p>
+          <h1>
+            Building clean digital experiences with a sharp eye for structure,
+            motion, and clarity.
+          </h1>
+          <p class="lede">
+            This site is deployed through Azure Static Web Apps from GitHub and
+            is ready to evolve into a full portfolio. Replace the placeholder
+            project details below with your actual work.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">See selected work</a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <p class="panel-label">Currently focused on</p>
+          <ul class="signal-list">
+            <li>Static sites and landing pages</li>
+            <li>Frontend polish and interaction design</li>
+            <li>Deployment workflows with GitHub and Azure</li>
+          </ul>
+          <div class="stats">
+            <article>
+              <strong>01</strong>
+              <span>Live Azure deployment pipeline</span>
+            </article>
+            <article>
+              <strong>03</strong>
+              <span>Featured case-study placeholders</span>
+            </article>
+            <article>
+              <strong>100%</strong>
+              <span>Static hosting with zero server maintenance</span>
+            </article>
+          </div>
+        </aside>
       </section>
-      <section class="card">
-        <h2>Next steps</h2>
-        <ol>
-          <li>Replace this page with your actual portfolio content.</li>
-          <li>Create the GitHub repository and push this directory.</li>
-          <li>Create an Azure Static Web App and add its deployment token to GitHub secrets.</li>
-        </ol>
+
+      <section class="section" id="work">
+        <div class="section-head">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Three portfolio-ready slots for projects worth showing well.</h2>
+        </div>
+
+        <div class="projects">
+          <article class="project project-featured">
+            <div class="project-meta">
+              <span>Case Study 01</span>
+              <span>Web Experience</span>
+            </div>
+            <h3>Project title placeholder for your strongest flagship build</h3>
+            <p>
+              Use this space for the one project that best shows range: design
+              intent, technical decisions, and the measurable result.
+            </p>
+            <ul>
+              <li>Responsive interface system</li>
+              <li>Fast static deployment workflow</li>
+              <li>Clear before-and-after story</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project-meta">
+              <span>Case Study 02</span>
+              <span>Product UI</span>
+            </div>
+            <h3>Project placeholder for a sharper, more technical example</h3>
+            <p>
+              Good fit for a dashboard, workflow tool, or app feature where the
+              structure and implementation mattered as much as the visuals.
+            </p>
+          </article>
+
+          <article class="project">
+            <div class="project-meta">
+              <span>Case Study 03</span>
+              <span>Brand + Launch</span>
+            </div>
+            <h3>Project placeholder for a fast-moving launch or redesign</h3>
+            <p>
+              Use this card for a landing page, campaign, or redesign that
+              benefited from clarity, pacing, and purposeful visual hierarchy.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="approach">
+        <div class="section-head">
+          <p class="eyebrow">Approach</p>
+          <h2>Design choices should carry their weight in the final build.</h2>
+        </div>
+
+        <div class="approach-grid">
+          <article class="principle">
+            <h3>Structure first</h3>
+            <p>
+              The strongest pages feel inevitable. Layout, spacing, and reading
+              order do most of the work before visual effects are added.
+            </p>
+          </article>
+
+          <article class="principle">
+            <h3>Intentional visuals</h3>
+            <p>
+              Good styling is not decoration. Typography, color, and contrast
+              should reinforce tone, credibility, and ease of use.
+            </p>
+          </article>
+
+          <article class="principle">
+            <h3>Deployable by default</h3>
+            <p>
+              Clean repos, stable hosting, and frictionless publishing matter.
+              A site that cannot ship cleanly is not finished.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-head">
+          <p class="eyebrow">Contact</p>
+          <h2>Available for freelance work, product builds, and site refreshes.</h2>
+        </div>
+
+        <div class="contact-panel">
+          <p>
+            Update these links with your preferred contact channels. Right now,
+            this section is structured to be easy to personalize and deploy.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:rlong.hails12135@gmail.com">rlong.hails12135@gmail.com</a>
+            <a href="https://github.com/rlong12135">github.com/rlong12135</a>
+          </div>
+        </div>
       </section>
     </main>
   </body>
-  </html>
+</html>
