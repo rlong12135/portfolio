@@ -193,8 +193,8 @@ ol {
 h1 {
   max-width: 12ch;
   margin-bottom: 1.1rem;
-  font-size: clamp(3rem, 7vw, 6.2rem);
-  line-height: 0.95;
+  font-size: clamp(2.35rem, 4.8vw, 3.9rem);
+  line-height: 1;
 }
 
 h2 {
