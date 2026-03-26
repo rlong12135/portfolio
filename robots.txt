@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ambitious-sky-0591b6610.1.azurestaticapps.net/sitemap.xml
