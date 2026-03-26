@@ -3,6 +3,7 @@
     "rewrite": "/index.html",
     "exclude": [
       "/docs/*",
+      "/google*",
       "/images/*",
       "/*.txt",
       "/*.xml",
