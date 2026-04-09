@@ -1,20 +1,9 @@
 {
-  "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": [
-      "/docs/*",
-      "/googlebcc30ed1ca45acf1.html",
-      "/images/*",
-      "/*.txt",
-      "/*.xml",
-      "/*.css",
-      "/*.js"
-    ]
-  },
-  "responseOverrides": {
-    "404": {
-      "rewrite": "/index.html",
-      "statusCode": 200
+  "routes": [
+    {
+      "route": "/index.html",
+      "redirect": "/",
+      "statusCode": 301
     }
-  }
+  ]
 }
