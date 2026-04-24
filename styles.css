@@ -181,7 +181,7 @@ a {
 }
 
 .profile-copy strong {
-  font-size: 1.1rem;
+  font-size: 0.98rem;
 }
 
 .profile-copy span {
@@ -198,8 +198,8 @@ a {
 .eyebrow,
 .panel-label {
   margin: 0 0 0.9rem;
-  font-size: 0.85rem;
-  letter-spacing: 0.2em;
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
 }
 
@@ -222,17 +222,17 @@ ol {
 h1 {
   max-width: 12ch;
   margin-bottom: 1.1rem;
-  font-size: clamp(2.35rem, 4.8vw, 3.9rem);
+  font-size: clamp(1.2rem, 2.4vw, 2rem);
   line-height: 1;
 }
 
 h2 {
-  font-size: clamp(2rem, 4vw, 3.4rem);
+  font-size: clamp(1rem, 2vw, 1.7rem);
   line-height: 1.02;
 }
 
 h3 {
-  font-size: 1.45rem;
+  font-size: clamp(0.95rem, 1.6vw, 1.25rem);
   line-height: 1.1;
 }
 
@@ -306,7 +306,7 @@ h3 {
   display: block;
   margin-bottom: 0.25rem;
   color: var(--highlight);
-  font-size: 2rem;
+  font-size: 1.35rem;
 }
 
 .section {
@@ -360,7 +360,7 @@ h3 {
 .timeline-meta {
   color: var(--accent-soft);
   font-family: "Syne", sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.82rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -376,7 +376,7 @@ h3 {
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: 1rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .split .approach-grid {
@@ -427,8 +427,8 @@ h3 {
 
 .doc-type {
   color: var(--accent-soft);
-  font-size: 0.85rem;
-  letter-spacing: 0.18em;
+  font-size: 0.74rem;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
@@ -491,10 +491,10 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(2.6rem, 15vw, 4rem);
+    font-size: clamp(1.2rem, 8vw, 2rem);
   }
 
   h2 {
-    font-size: clamp(1.8rem, 9vw, 2.8rem);
+    font-size: clamp(1rem, 6vw, 1.7rem);
   }
 }
